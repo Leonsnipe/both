@@ -6,7 +6,7 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === '') { 
+if (message.content === 'wara') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
@@ -34,12 +34,12 @@ client.on("message" , message => {
 
 if(message.channel.type === 'dm') {
 
-if (message.content.startsWith("https://discord.gg/")) {
+if (message.content.startsWith("https://discord.gg/nzwm28vv2k")) {
     
   message.author.send(``) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("").send(
-`> <:ARBELE_UPUP:791411050238836766> By: <@${message.author.id}> ✅ 
+  client.channels.get("845407458415083550").send(
+`> <:ARBELE_UPUP:> By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
     }
@@ -57,4 +57,4 @@ client.user.setGame(``,"http://twitch.tv/PAYWANDcamper")
 
 
 
-client.login("");//تۆکین لێرە دانێ
+client.login("ODc4MjAwMjI1NTAyNzU2ODY0.YR9tsQ.dtO0rB9tnpDLHDBgGF-HlDYRxe0");//تۆکین لێرە دانێ
